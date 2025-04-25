@@ -8,8 +8,6 @@ Model Context Protocol (MCP) is a design pattern that enables AI systems to unde
 
 ## 🧠 Why MCP Matters
 
-### 🧠 Why MCP Matters
-
 | Without MCP                     | With MCP                              |
 |----------------------------------|---------------------------------------|
 | “I can't log in again...”        | “I see you’ve had login issues before. Let’s try this…” |
