@@ -8,11 +8,15 @@ Model Context Protocol (MCP) is a design pattern that enables AI systems to unde
 
 ## 🧠 Why MCP Matters
 
-Without MCP	With MCP
-“I can't log in again...”	“I see you’ve had login issues before. Let’s try this…”
-No history awareness	Remembers past issues and plans
-Repeats answers / no continuity	Offers more relevant, intelligent responses
-Lacks empathy or personalization	Offers context-aware, human-like support
+### 🧠 Why MCP Matters
+
+| Without MCP                     | With MCP                              |
+|----------------------------------|---------------------------------------|
+| “I can't log in again...”        | “I see you’ve had login issues before. Let’s try this…” |
+| No history awareness             | Remembers past issues and plans      |
+| Repeats answers / no continuity  | Offers more relevant, intelligent responses |
+| Lacks empathy or personalization | Offers context-aware, human-like support |
+
 
 ## 💡 Use Cases of MCP
 Customer Support: Remember a user's previous support queries for faster resolution.
