@@ -1,7 +1,10 @@
+import os
 import json
 from datetime import datetime
 
-MEMORY_FILE_PATH = 'sample_data/memory_store.json'
+# ✅ Always resolve path correctly
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MEMORY_FILE_PATH = os.path.join(BASE_DIR, "sample_data", "memory_store.json")
 
 def load_memory():
     try:
@@ -15,6 +18,7 @@ def load_memory():
 
 def save_memory(memory):
     try:
+        os.makedirs(os.path.dirname(MEMORY_FILE_PATH), exist_ok=True)
         with open(MEMORY_FILE_PATH, 'w', encoding='utf-8') as file:
             json.dump(memory, file, indent=4, ensure_ascii=False)
     except UnicodeEncodeError as e:
